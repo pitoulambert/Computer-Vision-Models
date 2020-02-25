@@ -13,7 +13,7 @@ Also you can some helping for codes such as:
 
       . Preprocessing Dataset
       . Finding bounding boxes
-      . Train a model 
+      . Train a model
       . and so one...
       
       
