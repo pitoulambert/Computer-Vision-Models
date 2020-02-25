@@ -2,18 +2,19 @@
 
 ### This new repository has been created for helping purposes
 
-Here you can find some models and CNN architectures :
+Here you can find some CNN architectures :
  
       . AlexNet
       . VGG
       . GoogleNet
-      . ResNet
+      . ResNet (...)
  
 Also you can some helping for codes such as:
 
       . Preprocessing Dataset
       . Finding bounding boxes
       . Train a model
+      . Get the output image of the labelled images
       . and so one...
       
       
