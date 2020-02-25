@@ -18,12 +18,12 @@ Also you can some helping for codes such as:
       
       
   
-##### Only the alexnet architecture and the preprocessing of images dataset are available for now, the remaining are coming soon. 
-##### This repository will be kept updating .
+###### Only the alexnet architecture and the preprocessing of images dataset are available for now, the remaining are coming soon. 
+###### This repository will be kept updating .
 
 
 
 
 
 
-#### Thanks for your patience, and see you soon fore more algorithms
+###### Thanks for your patience, and see you soon fore more algorithms
