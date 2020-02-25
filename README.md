@@ -26,4 +26,4 @@ Also you can some helping for codes such as:
 
 
 
-###### Thanks for your patience, and see you soon fore more algorithms
+##### Thanks for your patience, and see you soon fore more algorithms
