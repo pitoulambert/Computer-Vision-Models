@@ -1,18 +1,3 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-from sklearn.datasets import load_files # used to load files in a directory structure
-from keras.utils import np_utils
-from glob import glob #used for wild card characters in between file paths
-from keras.preprocessing import image #for image preprocessing                  
-from sklearn.model_selection import train_test_split # used to split our data to train and validation sets
-from tqdm import tqdm # to maintain a progress bar
-import cv2 # to display images in final function
-import random
-import os
-import time
-from datetime import timedelta
-import math
 import tensorflow as tf
 
 sess = tf.Session()
@@ -32,7 +17,7 @@ n_classes = 1000 # number of classes to be classified
 # input and output vector placeholders
 x = tf.placeholder(tf.float32, [None, 227,227,3])
 y = tf.placeholder(tf.float32, [None, n_classes])
-flag_training=tf.placeholder(tf.bool)
+flag_training = tf.placeholder(tf.bool)
 
 # fully connected layer
 fc_layer = lambda x, W, b, name=None: tf.nn.bias_add(tf.matmul(x, W), b)
